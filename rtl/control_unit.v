@@ -1,4 +1,4 @@
-`include "isa.vh"
+`include "isa.v"
 
 module control_unit(
 
