@@ -173,16 +173,6 @@ Data transfers between RAM, Registers, ALU, and Output Register according to the
 
 ---
 
-## Author
-
-**Harini M**
-
-Electronics and Communication Engineering
-
-FPGA-Based 8-Bit Computer Architecture Project
-
----
-
 ## Repository Structure
 
 ```
