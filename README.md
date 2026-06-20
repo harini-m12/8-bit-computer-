@@ -113,15 +113,23 @@ The Bus Bottleneck Detection Unit:
 
 ## Instruction Set
 
-| Opcode | Mnemonic | Description |
-|----------|----------|-------------|
-| 0001 | LDA | Load Data to A Register |
-| 0010 | ADD | Add Memory Data to A |
-| 0011 | SUB | Subtract Memory Data from A |
-| 0100 | OUT | Send Result to Output Register |
-| 0101 | JMP | Jump to Address |
-| 0110 | JZ | Jump if Zero Flag = 1 |
-| 1111 | HLT | Halt Processor |
+| Opcode | Mnemonic | Description                         |
+| ------ | -------- | ----------------------------------- |
+| 0000   | NOP      | No Operation                        |
+| 0001   | ADD      | Add B Register to A Register        |
+| 0010   | SUB      | Subtract B Register from A Register |
+| 0011   | LDA      | Load Data into A Register           |
+| 0100   | LDB      | Load Data into B Register           |
+| 0101   | OUT      | Send A Register to Output Register  |
+| 0111   | HLT      | Halt Processor                      |
+| 1000   | STA      | Store A Register to Memory          |
+| 1001   | XOR      | Bitwise XOR Operation               |
+| 1010   | AND      | Bitwise AND Operation               |
+| 1011   | JMP      | Jump to Address                     |
+| 1100   | JC       | Jump if Carry Flag = 1              |
+| 1101   | JZ       | Jump if Zero Flag = 1               |
+| 1110   | INC      | Increment A Register                |
+
 
 ---
 
